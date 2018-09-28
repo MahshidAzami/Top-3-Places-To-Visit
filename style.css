@@ -1,0 +1,79 @@
+header {
+  background-image: url(http://www.thechocolatelips.com/wp-content/uploads/2017/04/shutterstock_605490227-940x627.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: solid white 1px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 400px;
+  padding: 50px 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+
+}
+body{
+  margin: 10px 15%;
+}
+
+img {
+  width: 100%;
+}
+
+
+ul {
+   list-style-type: none;
+   padding: 10px;
+   overflow: hidden;
+   background-color: #333333;
+}
+
+nav li {
+   float: left;
+}
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #111111;
+}
+
+footer img{
+  max-width: 100px;
+  margin-top: 30px;
+}
+
+footer{
+  text-align: center;
+  background-color: #999999;
+}
+
+footer a{
+max-width: 110px;
+margin: auto;
+background-color: #999999;
+color: black;
+margin-bottom: 20px;
+}
+
+article:first-of-type{
+  background-color: gray;
+  padding: 20px 20px;
+}
